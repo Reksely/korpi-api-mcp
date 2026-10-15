@@ -1,0 +1,47 @@
+{
+  "name": "@korpiai/api-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for the Korpi API: every top AI video, image and text model behind one key and one bill.",
+  "mcpName": "io.github.Reksely/korpi-api-mcp",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "korpi",
+    "ai-video",
+    "ai-image",
+    "grok-imagine",
+    "nano-banana",
+    "claude",
+    "cursor"
+  ],
+  "homepage": "https://korpi.ai/api-site/mcp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reksely/korpi-api-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Reksely/korpi-api-mcp/issues"
+  },
+  "type": "module",
+  "bin": {
+    "korpi-api-mcp": "bin/korpi-api-mcp.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "smoke": "node test/stdio-smoke.mjs",
+    "prepublishOnly": "npm test && npm run smoke"
+  }
+}
