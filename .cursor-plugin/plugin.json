@@ -1,0 +1,15 @@
+{
+  "name": "korpi",
+  "displayName": "Korpi",
+  "version": "0.1.0",
+  "description": "Make videos, images and text with top AI models through one Korpi API key.",
+  "author": {
+    "name": "Korpi",
+    "url": "https://korpi.ai"
+  },
+  "homepage": "https://api.korpi.ai/mcp",
+  "repository": "https://github.com/Reksely/korpi-api-mcp",
+  "license": "MIT",
+  "keywords": ["mcp", "video", "image", "ai", "korpi"],
+  "logo": "assets/logo.png"
+}

@@ -52,6 +52,8 @@ Other clients (`.cursor/mcp.json`, `claude_desktop_config.json`, Windsurf, VS Co
 
 From a checkout: `node bin/korpi-api-mcp.mjs`.
 
+Cursor plugin: this repo is also a Cursor plugin (`.cursor-plugin/plugin.json` and `mcp.json`). It reads `KORPI_API_KEY` from your environment.
+
 ## Develop
 
 ```bash

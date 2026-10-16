@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "korpi": {
+      "command": "npx",
+      "args": ["-y", "@korpiai/api-mcp"],
+      "env": {
+        "KORPI_API_KEY": "${KORPI_API_KEY}"
+      }
+    }
+  }
+}
